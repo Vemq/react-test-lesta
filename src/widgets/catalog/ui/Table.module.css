@@ -1,0 +1,21 @@
+.table {
+  align-self: center;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.header {
+  height: 50px;
+}
+
+.headerCell {
+  height: 100%;
+  color: var(--color-text);
+  vertical-align: middle;
+  background-color: var(--color-background-soft);
+}
+
+th:nth-child(5) > div {
+  padding-left: 15px;
+  justify-content: flex-start;
+}

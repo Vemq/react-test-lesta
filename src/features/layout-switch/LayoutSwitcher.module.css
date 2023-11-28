@@ -1,0 +1,24 @@
+.switcher {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    color: var(--color-border-hover);
+    padding: 0 7px;
+    gap: 8px;
+    border-bottom: 2px solid transparent;
+    user-select: none;
+  }
+  
+  .item:hover {
+    cursor: pointer;
+    border-bottom: 2px solid var(--color-heading);
+  }
+  
+  .item.active {
+    color: var(--color-heading);
+  }

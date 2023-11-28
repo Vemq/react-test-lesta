@@ -1,0 +1,15 @@
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin: 20px;
+}
+
+.filterGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 5px;
+    max-height: 200px;
+}
